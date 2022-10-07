@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website- Sneha Kulkarni.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/789e4bbdee.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I am <span>Sneha</span><br> From India</h1>
+            </div>
+        </div>
+
+    </div>
+ <!---------------------About----------------------------------------------------------->   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I also have an enthusiastic attitude towards learning new things.
+                     My goal is to obtain a career in a challenging environment where 
+                     I can utilise my skills to be resourceful, innovative and flexible</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Andriod Apps</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 Jan-June</span><br>Internship At Aino Software Pvt Ltd.</li>
+                           
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2022</span><br>MSc Computer Science From Garware College Pune.</li>
+                            <li><span>2017-2020</span><br>BSc Computer Science From S.P College Pune</li>
+                        
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------Services-------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites that are displayed on the internet.
+                        I Develope the user interface.<br>Web page development.
+                        
+                    </p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI creates a connection between the user and service provider.Our UI design aim to Buil
+                        keen brand awarness to help your company and customer satisfaction.
+                    </p>
+                  <!--  <a href="#">Learn more</a>-->
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>It is design development, and enhancement of mobile software that runs on all supported Andriod OS versions. 
+                    </p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------portfolio-------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Online shopping is the process of researching and purchasing products or services 
+                            over the internet.
+                        </p>
+                        <a href="https://github.com/Sneha0112/DFlipkart.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Benchmarx.com</h3>
+                        <p>The project aims to calculate the performance i.e. memory and time of execution of various 
+                            programming languages.In this project there are three languages which is Java,Python and Go.
+                        </p>
+                        <a href="https://github.com/Sneha0112/Benchmarx.com.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Forms in Angular</h3>
+                        <p>In this project various forms of angular.
+                        </p> 
+                        <a href="https://github.com/Sneha0112/kriovaasses.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-----------------------------------------------Contact--------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> snehakulkarni973@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-9156836511</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100016370105693"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/sneha_kul01?t=MPR6Qjf1chRWWmFKpNnWdg&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sneha-kulkarni-a813b61a3/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Youe Mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Sneha Kulkarni.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzGGNgXpfKomCGb9tvFuLITBeg36wx1pyxdOknielQvq4MB2P3_5f4FFeXBgFEB2H4niQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Succesfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+</html>
